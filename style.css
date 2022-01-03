@@ -1,0 +1,473 @@
+body{
+    padding: 0;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    max-width: 1350px;
+    margin: auto;
+}
+.header {
+    background: #283748;
+    overflow: hidden;
+}
+.sec1{
+    padding: 15px 0px;
+    overflow:hidden;
+}
+.sec1 .container {
+    width: 90%;
+    margin: auto;
+}
+.sec1 .logo-area {
+    width: 20%;
+    float: left;
+    margin: 0px;
+    padding-right: 60px;
+    padding-left: 10px;
+}
+.sec1 .logo-area img{
+    width: 180px;
+    height: 108px;
+}
+.sec1 .menu-area {
+    width: 60%;
+    float: left;
+}
+.sec1 .menu-area ul{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+    padding:0;
+    text-align: right;
+}
+.sec1 .menu-area ul li{
+    display: inline-block;
+    padding: 0px 1px;
+    margin: 20px;   
+}
+.sec1 .menu-area ul li a {
+    text-decoration: none;
+    color: white;
+    font-family:Akaya Kanadaka; 
+    font-size: 17px;
+}
+.sec1 .menu-area ul li a:hover{
+    color: #E04701;   
+}
+.dropdown {
+    display: none;
+}
+.dropdown a{
+    display: block;
+}
+.drop:hover .dropdown{
+    display:block;
+}
+.sec1 .contact {
+    width: 7%;
+    float: left;
+    margin: auto;
+}
+.sec1 .contact a {
+    color: white;
+    text-decoration: none;
+    font-family: Akaya Kanadaka; 
+    font-size: 17px;
+    background: #E04701;
+    padding: 10px 0px 0px 0px;
+    margin: 30px 0px 10px 20px;
+    display: block;
+    border: 1px solid #E04701;
+    height: 30px;
+    width: 139px;
+    text-align: center;
+    border-radius: 50px;
+}
+.sec1 .contact a:hover{
+    background: white;
+    color: #E04701;
+}
+.sec2{
+    float: left;
+    width: 90%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.sec2 .left-area {
+    width: 50%;
+    float: left;
+    padding: 0px;   
+}
+.sec2 .left-area h3 {
+    color: #e5e6e8;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 800;
+}
+.sec2 .left-area h1 {
+    color: white;
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 800;
+}
+.sec2 .left-area h4 {
+    font-family:Akaya Kanadaka;
+    color: #e5e6e8;
+    font-size: 18px;
+    line-height: 33px;
+}
+.sec2 .left-area .button {
+    width: 200px;
+    height: 40px;
+}
+.sec2 .left-area .button a{
+    font-size: 16px;
+    font-family:Akaya Kanadaka;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background: #E04701;
+    border: 1px solid #E04701;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.sec2 .left-area .button a:hover {
+    color: #E04701;
+    background: white;
+}
+.sec2 .right-area {
+    width: 20%;
+    float: left;   
+}
+.sec2 .right-area img{
+    height: 553px;
+    width: 370px;
+}
+.section {
+    background: #DAD1C9;
+    overflow: hidden;
+    
+}
+.section .service1 {
+    display:block;
+    text-align: center;
+}
+.section .service1 h3{
+    padding-top: 80px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000f23;
+}
+.section .service1 h2 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 46px;
+    color: #000f23;
+}
+.service11 {
+    width: 90%;
+    height:431px;
+    margin: auto;
+    padding-top: 40px;
+    display: block;
+}
+.service11 img{
+    float: left;
+    width: 350px;
+    height: auto;
+    padding-right: 60px;
+}
+.service11 .blogger {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 70px;
+    width: 50%;
+}
+.service11 .blogger h2 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000f23;
+}
+.service11 .blogger p {
+    font-family: Akaya Kanadaka;
+    font-size: 18px;
+    line-height: 33px;
+    color: #5d7280;
+}
+.service11 .blogger .readmore {
+    margin: 0px;
+    padding-top: 50px;
+}
+.service11 .blogger .readmore a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #E04701;
+    font-family: Akaya Kanadaka;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    background: #E04701;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.service11 .blogger .readmore a:hover{
+    background: white;
+    color: #E04701;
+}
+.service12 {
+    width: 90%;
+    height: 431px;
+    margin: 0px 20px 0px 20px;
+    padding-top: 40px;
+    display: block;
+} 
+.service12 img{
+    float: right;
+    width: 350px;
+    height: auto;
+    padding-right: 60px;
+}
+.service12 .blogger {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 70px;
+    width: 50%;
+}
+.service12 .blogger h2 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000f23;
+}
+.service12 .blogger p {
+    font-family: Akaya Kanadaka;
+    font-size: 18px;
+    line-height: 33px;
+    color: #5d7280;
+}
+.service12 .blogger .readmore {
+    margin: 0px;
+    padding-top: 50px;
+}
+.service12 .blogger .readmore a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #E04701;
+    font-family: Akaya Kanadaka;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    background: #E04701;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.service12 .blogger .readmore a:hover{
+    background: white;
+    color: #E04701;
+}
+.service13 {
+    width: 90%;
+    height:431px;
+    margin: auto;
+    padding-top: 40px;
+    display: block;
+} 
+.service13 img{
+    float: left;
+    width: 350px;
+    height: auto;
+    padding-right: 60px;
+}
+.service13 .blogger {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 70px;
+    width: 50%;
+}
+.service13 .blogger h2 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000f23;
+}
+.service13 .blogger p {
+    font-family: Akaya Kanadaka;
+    font-size: 18px;
+    line-height: 33px;
+    color: #5d7280;
+}
+.service13 .blogger .readmore {
+    margin: 0px;
+    padding-top: 50px;
+}
+.service13 .blogger .readmore a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #E04701;
+    font-family: Akaya Kanadaka;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    background: #E04701;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.service13 .blogger .readmore a:hover{
+    background: white;
+    color: #E04701;
+}
+.mid-section {
+    text-align: center;
+}
+
+.mid-section h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+}
+.mid-section h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 46px;
+}
+.mid-section ul {
+    list-style-type: none;
+}
+.mid-section ul li {
+    display: inline-block;
+    border-radius: 10px;
+    width: 300px;
+    height: 345px;
+    box-sizing: border-box;
+    margin: 40px;
+    padding: 15px 50px;
+    cursor: pointer;
+    background: white;
+}
+.mid-section ul li:hover {
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px #E8E8E8;
+}
+.mid-section ul h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px 0px 0px 
+}
+.mid-section p {
+    color: #5d7280;
+    font-family: Akaya Kanadaka;
+    font-size: 18px;
+    line-height: 33px;
+}
+.fa-clock {
+    font-size: 80px;
+    color: goldenrod;
+    padding-top: 30px;
+}
+.fa-check {
+    font-size: 80px;
+    color: goldenrod;
+    padding-top: 30px;
+}
+.fa-calendar-alt {
+    font-size: 80px;
+    color: goldenrod;
+    padding-top: 30px;
+}
+.last-section {
+    text-align: center; 
+    background: #DAD1C9;
+}
+.last-section h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+}
+.last-section h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 46px;
+}
+.last-section ul {
+    list-style-type: none;
+}
+.last-section ul li {
+    display: inline-block;
+    border-radius: 40px;
+    width: 300px;
+    height: 345px;
+    box-sizing: border-box;
+    margin: 40px;
+    padding: 10px 50px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid white;
+}
+.last-section .fa-quote-left {
+    font-size: 40px;
+    color: goldenrod;
+    padding-top: 0px;
+}
+.last-section p {
+    font-family: Akaya Kanadaka;
+    font-size: 16x;
+    line-height: 25px;
+    color: #5d7280;
+}
+.last-section h4 {
+    text-align: left;
+    font-family: Akaya Kanadaka;
+    font-size: 18x;
+    padding-top: 20px;
+    line-height: 0px;
+    color: black;
+}
+.last-section h5 {
+    font-family: Akaya Kanadaka;
+    font-size: 15x;
+    line-height: 0px;
+    color: black;
+    text-align: left;
+}
+.footer-container {
+    width: 90%;
+}
+.foot {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+}
+.foot P {
+    display: inline;
+    padding-left: 30px;
+}
+.foot-menu {
+    float: left;
+    width: 50%; 
+}
+.foot-menu ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 30px;
+}
+.foot-menu ul li {
+    display: inline;
+    padding: 5px 5px;    
+}
